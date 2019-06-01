@@ -1,6 +1,5 @@
-{ "$schema": "http://jeanmgirard.github.io/schemas/software#",
-  "$id":     "http://jeanmgirard.github.io/schemas/software/package.json",
-
+{
+  "$id":     "https://jeanmgirard.github.io/schemas/software/package#",
   "type": "object",
   "properties": {
     "name":    { "type": "string" },

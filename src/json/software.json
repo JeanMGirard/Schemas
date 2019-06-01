@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id":     "https://jeanmgirard.github.io/schemas/software#",
+  "type": "object",
+  "title": "software root schema",
+
+  "properties": {
+    "libraries": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "anyOf": [
+          { "$ref": "#/definitions/package" },
+          { "$ref": "#/definitions/library" }
+        ]
+      }
+    }
+  },
+  "definitions":{
+    "package": {},
+    "library": {},
+    "technology": {}
+  }
+
+}

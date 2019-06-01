@@ -1,9 +1,0 @@
-{
-  "$schema": "https://jeanmgirard.github.io/schemas/software#",
-  "$id":     "https://jeanmgirard.github.io/schemas/software.json#",
-
-  "title": "jeanmgirard software schema",
-  "definitions":{
-    "package": { "$ref": "software/package.json" }
-  }
-}
