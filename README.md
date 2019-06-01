@@ -1,8 +1,9 @@
 # Schemas
 json, xml, openapi... Really any schema
 
+git clone --recursive https://github.com/JeanMGirard/Schemas
 
-docs/ **DO NOT PUT DOCUMENTATION HERE**
+
 
 Used for unique identifiers
 eg.

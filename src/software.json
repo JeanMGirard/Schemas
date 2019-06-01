@@ -1,0 +1,9 @@
+{
+  "$schema": "http://jeanmgirard.github.io/schemas/software.json#",
+  "$id":     "https://jeanmgirard.github.io/schemas/software.json#",
+
+  "title": "jeanmgirard software schema",
+  "allOf": [
+      {"$ref": "software/package"},
+  ],
+}

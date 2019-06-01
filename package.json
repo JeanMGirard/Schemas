@@ -1,0 +1,26 @@
+{
+  "name": "schemas",
+  "version": "1.0.0",
+  "description": "json, xml, openapi... Really any schema",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeanMGirard/Schemas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeanMGirard/Schemas/issues"
+  },
+  "homepage": "https://github.com/JeanMGirard/Schemas#readme",
+  "devDependencies": {
+    "@json-schema-org/tests": "^1.0.0",
+    "z-schema": "^4.1.0"
+  }
+}

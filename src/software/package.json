@@ -1,0 +1,10 @@
+{ "$schema": "http://jeanmgirard.github.io/schemas/software.json#",
+  "$id": "http://jeanmgirard.github.io/schemas/software/package.json",
+
+  "type": "object",
+  "properties": {
+    "name":    { "type": "string" },
+    "version": { "type": "string" }
+  },
+  "required": ["name"]
+}
